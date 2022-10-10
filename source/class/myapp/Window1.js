@@ -23,10 +23,10 @@ qx.Class.define("myapp.Window1", {
         nextButton.addListener("execute", function () {
 
         })
-        this.setContentPadding(0);
-
         let win2 = new myapp.Window2();
         win2.moveTo(50, 200);
         win2.open();
+        this.setContentPadding(0);
+
     },
 });
